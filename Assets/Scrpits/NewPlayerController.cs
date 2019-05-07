@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewPlayerController : MonoBehaviour {
 
-	public float walkSpeed;
+	public int walkSpeed;
 	public int rotationSpeed;
     public float jumpVelocity;
     public float startPositionY;

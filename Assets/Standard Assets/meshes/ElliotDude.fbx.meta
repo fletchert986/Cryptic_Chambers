@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: c90a037ef042e424d8c683128e627065
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chest_Control
+    100002: //RootNode
+    100004: Head_Control
+    100006: Head_Joint
+    100008: HeadTop_Joint
+    100010: Hip_Control
+    100012: Hip_Joint
+    100014: ik_Left_Arm
+    100016: ik_Left_Leg
+    100018: ik_Right_Arm
+    100020: ik_Right_Leg
+    100022: ik_Spine
+    100024: Left_Clavicle_Control
+    100026: Left_Clavicle_Joint
+    100028: Left_Elbow_Joint
+    100030: Left_Foot_Control
+    100032: Left_Foot_Joint
+    100034: Left_IndexFinger01_Joint
+    100036: Left_IndexFinger02_Joint
+    100038: Left_IndexFinger03_Joint
+    100040: Left_IndexFinger04_Joint
+    100042: Left_Knee_Joint
+    100044: Left_LegTop_Joint
+    100046: Left_MiddleFinger01_Joint
+    100048: Left_MiddleFinger02_Joint
+    100050: Left_MiddleFinger03_Joint
+    100052: Left_MiddleFinger04_Joint
+    100054: Left_Pinky01_Joint
+    100056: Left_Pinky02_Joint
+    100058: Left_Pinky03_Joint
+    100060: Left_Pinky04_Joint
+    100062: Left_RingFinger01_Joint
+    100064: Left_RingFinger02_Joint
+    100066: Left_RingFinger03_Joint
+    100068: Left_RingFinger04_Joint
+    100070: Left_Shoulder_Joint
+    100072: Left_Thumb01_Joint
+    100074: Left_Thumb02_Joint
+    100076: Left_Thumb03_Joint
+    100078: Left_Toe_Joint
+    100080: Left_ToeTip_Joint
+    100082: Left_Wrist_Control
+    100084: Left_Wrist_Joint
+    100086: Master_Control
+    100088: Neck_Joint
+    100090: pCone1
+    100092: pCube10
+    100094: pCube11
+    100096: pCube12
+    100098: pCube13
+    100100: pCube14
+    100102: pCube15
+    100104: pCube16
+    100106: pCube17
+    100108: pCube18
+    100110: pCube19
+    100112: pCube20
+    100114: pCube21
+    100116: pCube22
+    100118: pCube3
+    100120: pCube4
+    100122: pCube5
+    100124: pCube6
+    100126: pCube7
+    100128: pCube8
+    100130: pCube9
+    100132: pCylinder1
+    100134: pCylinder10
+    100136: pCylinder11
+    100138: pCylinder12
+    100140: pCylinder13
+    100142: pCylinder14
+    100144: pCylinder2
+    100146: pCylinder3
+    100148: pCylinder4
+    100150: pCylinder5
+    100152: pCylinder6
+    100154: pCylinder7
+    100156: pCylinder8
+    100158: pCylinder9
+    100160: PlayerModel
+    100162: pSphere1
+    100164: pSphere2
+    100166: pSphere3
+    100168: pSphere4
+    100170: pSphere5
+    100172: pSphere6
+    100174: pSphere7
+    100176: pTorus2
+    100178: pTorus3
+    100180: Right_Clavicle_Control
+    100182: Right_Clavicle_Joint
+    100184: Right_Elbow_Joint
+    100186: Right_Foot_Control
+    100188: Right_Foot_Joint
+    100190: Right_IndexFinger01_Joint
+    100192: Right_IndexFinger02_Joint
+    100194: Right_IndexFinger03_Joint
+    100196: Right_IndexFinger04_Joint
+    100198: Right_Knee_Joint
+    100200: Right_LegTop_Joint
+    100202: Right_MiddleFinger01_Joint
+    100204: Right_MiddleFinger02_Joint
+    100206: Right_MiddleFinger03_Joint
+    100208: Right_MiddleFinger04_Joint
+    100210: Right_Pinky01_Joint
+    100212: Right_Pinky02_Joint
+    100214: Right_Pinky03_Joint
+    100216: Right_Pinky04_Joint
+    100218: Right_RingFinger01_Joint
+    100220: Right_RingFinger02_Joint
+    100222: Right_RingFinger03_Joint
+    100224: Right_RingFinger04_Joint
+    100226: Right_Shoulder_Joint
+    100228: Right_Thumb01_Joint
+    100230: Right_Thumb02_Joint
+    100232: Right_Thumb03_Joint
+    100234: Right_Toe_Joint
+    100236: Right_ToeTip_Joint
+    100238: Right_Wrist_Control
+    100240: Right_Wrist_Joint
+    100242: Spine01_Joint
+    100244: Spine02_Joint
+    100246: Spine03_Joint
+    100248: Spine_Curve
+    100250: Spine_Curve 1
+    100252: transform1
+    100254: transform10
+    100256: transform11
+    100258: transform12
+    100260: transform13
+    100262: transform14
+    100264: transform15
+    100266: transform16
+    100268: transform17
+    100270: transform18
+    100272: transform19
+    100274: transform2
+    100276: transform20
+    100278: transform21
+    100280: transform22
+    100282: transform23
+    100284: transform24
+    100286: transform25
+    100288: transform26
+    100290: transform27
+    100292: transform28
+    100294: transform29
+    100296: transform3
+    100298: transform30
+    100300: transform31
+    100302: transform32
+    100304: transform33
+    100306: transform34
+    100308: transform35
+    100310: transform36
+    100312: transform37
+    100314: transform38
+    100316: transform39
+    100318: transform4
+    100320: transform40
+    100322: transform41
+    100324: transform42
+    100326: transform43
+    100328: transform44
+    100330: transform45
+    100332: transform46
+    100334: transform47
+    100336: transform48
+    100338: transform49
+    100340: transform5
+    100342: transform50
+    100344: transform51
+    100346: transform52
+    100348: transform53
+    100350: transform54
+    100352: transform55
+    100354: transform56
+    100356: transform57
+    100358: transform58
+    100360: transform6
+    100362: transform7
+    100364: transform8
+    100366: transform9
+    400000: Chest_Control
+    400002: //RootNode
+    400004: Head_Control
+    400006: Head_Joint
+    400008: HeadTop_Joint
+    400010: Hip_Control
+    400012: Hip_Joint
+    400014: ik_Left_Arm
+    400016: ik_Left_Leg
+    400018: ik_Right_Arm
+    400020: ik_Right_Leg
+    400022: ik_Spine
+    400024: Left_Clavicle_Control
+    400026: Left_Clavicle_Joint
+    400028: Left_Elbow_Joint
+    400030: Left_Foot_Control
+    400032: Left_Foot_Joint
+    400034: Left_IndexFinger01_Joint
+    400036: Left_IndexFinger02_Joint
+    400038: Left_IndexFinger03_Joint
+    400040: Left_IndexFinger04_Joint
+    400042: Left_Knee_Joint
+    400044: Left_LegTop_Joint
+    400046: Left_MiddleFinger01_Joint
+    400048: Left_MiddleFinger02_Joint
+    400050: Left_MiddleFinger03_Joint
+    400052: Left_MiddleFinger04_Joint
+    400054: Left_Pinky01_Joint
+    400056: Left_Pinky02_Joint
+    400058: Left_Pinky03_Joint
+    400060: Left_Pinky04_Joint
+    400062: Left_RingFinger01_Joint
+    400064: Left_RingFinger02_Joint
+    400066: Left_RingFinger03_Joint
+    400068: Left_RingFinger04_Joint
+    400070: Left_Shoulder_Joint
+    400072: Left_Thumb01_Joint
+    400074: Left_Thumb02_Joint
+    400076: Left_Thumb03_Joint
+    400078: Left_Toe_Joint
+    400080: Left_ToeTip_Joint
+    400082: Left_Wrist_Control
+    400084: Left_Wrist_Joint
+    400086: Master_Control
+    400088: Neck_Joint
+    400090: pCone1
+    400092: pCube10
+    400094: pCube11
+    400096: pCube12
+    400098: pCube13
+    400100: pCube14
+    400102: pCube15
+    400104: pCube16
+    400106: pCube17
+    400108: pCube18
+    400110: pCube19
+    400112: pCube20
+    400114: pCube21
+    400116: pCube22
+    400118: pCube3
+    400120: pCube4
+    400122: pCube5
+    400124: pCube6
+    400126: pCube7
+    400128: pCube8
+    400130: pCube9
+    400132: pCylinder1
+    400134: pCylinder10
+    400136: pCylinder11
+    400138: pCylinder12
+    400140: pCylinder13
+    400142: pCylinder14
+    400144: pCylinder2
+    400146: pCylinder3
+    400148: pCylinder4
+    400150: pCylinder5
+    400152: pCylinder6
+    400154: pCylinder7
+    400156: pCylinder8
+    400158: pCylinder9
+    400160: PlayerModel
+    400162: pSphere1
+    400164: pSphere2
+    400166: pSphere3
+    400168: pSphere4
+    400170: pSphere5
+    400172: pSphere6
+    400174: pSphere7
+    400176: pTorus2
+    400178: pTorus3
+    400180: Right_Clavicle_Control
+    400182: Right_Clavicle_Joint
+    400184: Right_Elbow_Joint
+    400186: Right_Foot_Control
+    400188: Right_Foot_Joint
+    400190: Right_IndexFinger01_Joint
+    400192: Right_IndexFinger02_Joint
+    400194: Right_IndexFinger03_Joint
+    400196: Right_IndexFinger04_Joint
+    400198: Right_Knee_Joint
+    400200: Right_LegTop_Joint
+    400202: Right_MiddleFinger01_Joint
+    400204: Right_MiddleFinger02_Joint
+    400206: Right_MiddleFinger03_Joint
+    400208: Right_MiddleFinger04_Joint
+    400210: Right_Pinky01_Joint
+    400212: Right_Pinky02_Joint
+    400214: Right_Pinky03_Joint
+    400216: Right_Pinky04_Joint
+    400218: Right_RingFinger01_Joint
+    400220: Right_RingFinger02_Joint
+    400222: Right_RingFinger03_Joint
+    400224: Right_RingFinger04_Joint
+    400226: Right_Shoulder_Joint
+    400228: Right_Thumb01_Joint
+    400230: Right_Thumb02_Joint
+    400232: Right_Thumb03_Joint
+    400234: Right_Toe_Joint
+    400236: Right_ToeTip_Joint
+    400238: Right_Wrist_Control
+    400240: Right_Wrist_Joint
+    400242: Spine01_Joint
+    400244: Spine02_Joint
+    400246: Spine03_Joint
+    400248: Spine_Curve
+    400250: Spine_Curve 1
+    400252: transform1
+    400254: transform10
+    400256: transform11
+    400258: transform12
+    400260: transform13
+    400262: transform14
+    400264: transform15
+    400266: transform16
+    400268: transform17
+    400270: transform18
+    400272: transform19
+    400274: transform2
+    400276: transform20
+    400278: transform21
+    400280: transform22
+    400282: transform23
+    400284: transform24
+    400286: transform25
+    400288: transform26
+    400290: transform27
+    400292: transform28
+    400294: transform29
+    400296: transform3
+    400298: transform30
+    400300: transform31
+    400302: transform32
+    400304: transform33
+    400306: transform34
+    400308: transform35
+    400310: transform36
+    400312: transform37
+    400314: transform38
+    400316: transform39
+    400318: transform4
+    400320: transform40
+    400322: transform41
+    400324: transform42
+    400326: transform43
+    400328: transform44
+    400330: transform45
+    400332: transform46
+    400334: transform47
+    400336: transform48
+    400338: transform49
+    400340: transform5
+    400342: transform50
+    400344: transform51
+    400346: transform52
+    400348: transform53
+    400350: transform54
+    400352: transform55
+    400354: transform56
+    400356: transform57
+    400358: transform58
+    400360: transform6
+    400362: transform7
+    400364: transform8
+    400366: transform9
+    2100000: lambert2
+    4300000: PlayerModel
+    9500000: //RootNode
+    13700000: PlayerModel
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'Left_LegTop_Joint' : position
+      error = 5060.697266 mm\n\t'Left_Knee_Joint' : position error = 12598.024414
+      mm\n\t'transform47' : position error = 18319.931641 mm\n\t'Left_Foot_Joint'
+      : position error = 4831.081543 mm\n\t'Left_Toe_Joint' : position error = 3584.315674
+      mm\n\t'Right_LegTop_Joint' : position error = 4319.735840 mm\n\t'Right_Knee_Joint'
+      : position error = 12598.079102 mm\n\t'transform50' : position error = 18129.218750
+      mm\n\t'Right_Foot_Joint' : position error = 4048.326416 mm\n\t'Right_Toe_Joint'
+      : position error = 3584.316162 mm\n\t'Spine01_Joint' : position error = 636.191772
+      mm\n\t'Spine02_Joint' : position error = 6074.166992 mm\n\t'Spine03_Joint' :
+      position error = 9432.615234 mm\n\t'Neck_Joint' : position error = 1625.463257
+      mm\n\t'Head_Joint' : position error = 2015.338867 mm\n\t'Left_Clavicle_Joint'
+      : position error = 4058.876465 mm\n\t'Left_Shoulder_Joint' : position error
+      = 3870.012207 mm\n\t'Left_Elbow_Joint' : position error = 7044.375000 mm\n\t'Left_Wrist_Joint'
+      : position error = 8659.081055 mm\n\t'Left_RingFinger01_Joint' : position error
+      = 3917.929688 mm\n\t'Left_RingFinger02_Joint' : position error = 1458.188599
+      mm\n\t'Left_RingFinger03_Joint' : position error = 585.716187 mm\n\t'Left_Pinky01_Joint'
+      : position error = 4099.241699 mm\n\t'Left_Pinky02_Joint' : position error =
+      1458.188599 mm\n\t'Left_Pinky03_Joint' : position error = 585.716187 mm\n\t'Left_MiddleFinger01_Joint'
+      : position error = 4065.392090 mm\n\t'Left_MiddleFinger02_Joint' : position
+      error = 1458.188599 mm\n\t'Left_MiddleFinger03_Joint' : position error = 585.716187
+      mm\n\t'Left_IndexFinger01_Joint' : position error = 4061.662598 mm\n\t'Left_IndexFinger02_Joint'
+      : position error = 1458.188599 mm\n\t'Left_IndexFinger03_Joint' : position error
+      = 585.716187 mm\n\t'Left_Thumb01_Joint' : position error = 1748.752441 mm\n\t'Left_Thumb02_Joint'
+      : position error = 1497.892090 mm\n\t'Right_Clavicle_Joint' : position error
+      = 4058.868896 mm\n\t'Right_Shoulder_Joint' : position error = 3817.247803 mm\n\t'Right_Elbow_Joint'
+      : position error = 6945.346191 mm\n\t'Right_Wrist_Joint' : position error =
+      8666.193359 mm\n\t'Right_RingFinger01_Joint' : position error = 3264.243164
+      mm\n\t'Right_RingFinger02_Joint' : position error = 1458.194702 mm\n\t'Right_RingFinger03_Joint'
+      : position error = 585.654419 mm\n\t'Right_Pinky01_Joint' : position error =
+      3467.233154 mm\n\t'Right_Pinky02_Joint' : position error = 1458.194702 mm\n\t'Right_Pinky03_Joint'
+      : position error = 585.734802 mm\n\t'Right_MiddleFinger01_Joint' : position
+      error = 3309.082031 mm\n\t'Right_MiddleFinger02_Joint' : position error = 1458.250366
+      mm\n\t'Right_MiddleFinger03_Joint' : position error = 585.672363 mm\n\t'Right_IndexFinger01_Joint'
+      : position error = 3454.904053 mm\n\t'Right_IndexFinger02_Joint' : position
+      error = 1458.169922 mm\n\t'Right_IndexFinger03_Joint' : position error = 585.753052
+      mm\n\t'Right_Thumb01_Joint' : position error = 1749.821289 mm\n\t'Right_Thumb02_Joint'
+      : position error = 1497.817261 mm\n"
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 32
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
